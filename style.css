@@ -1,0 +1,116 @@
+body, html{
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-style{
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    background-color: white; 
+}
+.navbar-toggler{
+    background-color: black;
+}
+
+.nav-link{
+   /* color: #a8d288;*/
+    padding: 15px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-size: large;
+    line-height: 1.923;
+}
+.full-width{
+    margin-top: 20px;
+    background-color: #a8d288;
+    color: black;
+    padding: 30px;
+}
+.full-width h1{
+    color: white;
+    text-transform: uppercase;
+}
+.full-width p{
+    padding: 50px 200px 50px 200px;
+    text-align: center;
+}
+
+.carousel-inner img {
+      width: 100%;
+  }
+  .service{
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 250px;
+    font: 'Helvetica Light', 'Helvetica', Arial, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+
+  .ourservice h1{
+    text-align: center; 
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin:20px;
+  }
+
+ .mybutton{
+    background: none;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    background-color: #a8d288;
+    color: inherit;
+    text-decoration: none;
+  }
+.layered{
+    /*margin:0;
+    padding: 0;*/
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+  .container1{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    background: rgba(0,0,0,0.1);
+    transform: rotate(-30deg) skew(25deg) scale(0.8);
+    transition: 0.5s;
+}
+
+.container1 img{
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+}
+.container1:hover img:nth-child(4){
+    transform: translate(160px,-160px);
+    opacity: 1;
+}
+.container1:hover img:nth-child(3){
+    transform: translate(120px,-120px);
+    opacity: 0.8;
+}
+.container1:hover img:nth-child(2){
+    transform: translate(80px,-80px);
+    opacity: 0.6;
+}
+.container1:hover img:nth-child(1){
+    transform: translate(40px,-40px);
+    opacity: 0.4;
+}
+
+#footer{
+    background-color: #ececec;
+    padding: 50px;
+}
+
+
